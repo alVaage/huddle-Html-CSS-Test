@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root {
+    --VeryPaleCyan: rgb(235, 251, 255);
+    --VeryDarkCyan: rgb(0, 37, 46);
+    --GrayishBlue: rgb(128, 141, 153);
+    --Pink: hsl(322, 100%, 66%);
+}
+body{
+    overflow-x: hidden;
+}
+#container{
+    font-family: 'Open Sans', sans-serif;
+    color: var(--VeryDarkCyan);
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600!important;
+}
+button{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    color: var(--VeryDarkCyan);
+    text-align: center;
+    font-size: 13px;
+    padding: 13px;
+    border: none;
+    box-shadow: 0 0px 10px 0px rgb(0, 37, 46, 0.10);
+}
+img:not(footer img){
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+#topHero{
+    height: 100vh;
+    background-image: url(images/bg-hero-desktop.svg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+#topLogo{
+    text-align: center;
+    margin-top: 28px;
+}
+#topBtnContainer{
+    text-align: center;
+    margin-top: 28px;
+}
+#topBtn{
+    border-radius: 30px;
+    background-color: white;
+    width: 66%;
+}
+#topTextContaier{
+    padding-left: 70px;
+    
+}
+#topTextH1{
+    font-size: 50px;
+    margin-bottom: 45px;
+
+}
+#topTextP{
+    font-size: 21px;
+    font-weight: 400;
+    margin-bottom: 25px;
+
+}
+.topTextBtn{
+    background-color: var(--Pink);
+    color: white;
+    border-radius: 45px;
+    width: 300px;
+
+}
+#illTopSec{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin: 75px;
+
+}
+.space{
+    padding-top: 100px;
+}
+
+#content p{
+    /*margin-left: 200px;*/
+    width: 80%;
+    font-weight: 100;
+    font-size: 20px;
+}
+.logo-part img{
+    margin-bottom: 20px;
+}
+
+footer{
+    width: 100%;
+    background-color: var(--VeryDarkCyan);
+    padding-top: 150px;
+}
+footer p{
+    color: var(--VeryPaleCyan);
+    font-size: 12px;
+}
+footer h6{
+    color: var(--VeryPaleCyan);
+}
+td p, td img{
+    padding-top: 5px;
+    vertical-align: middle;
+    padding: 0;
+    margin: 0;
+}
+
+table tr{
+    line-height: 15px;
+}
+.cta-box{
+    width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 35px;
+    margin-top: 100px;
+    transform: translateY(60px);
+}
